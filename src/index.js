@@ -1,16 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './components/App'
+import App from './App'
 import * as serviceWorker from './serviceWorker'
 import { Grommet } from 'grommet'
 
 const myTheme = {
-  global: {
-    font: {
-      family: '',
-    },
-  },
+  global: {},
   button: {
     border: {
       radius: '0px',
