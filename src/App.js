@@ -5,14 +5,13 @@ import ReactMarkdown from 'react-markdown'
 
 export default function App() {
   const [value, setValue] = useState(
-    `
-  Hi there 👋
+    `Hi there 👋
+    
+# Write some markdown ✏️
 
-  # Write some markdown ✏️
+## Press preview 🕵
 
-  ## Press preview 🕵
-
-  ### Profit 💰
+### Profit 💰
   `
   )
   const [show, setShow] = useState(false)
